@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TABUADA ONLINE</h1>
+        <hr> <br>
+
+        <p>Seja bem-vindo(a) a tabuada online! Nela você pode consultar rapidamente as tabuadas de 1 a 10. Espero que goste!</p>
+    </header>
+
+    <main>
+        <label for="numero">Número base: </label>
+        <input type="number" id="numero" min="1" max="10">
+        <button onclick="gerarTabuada()">Gerar tabuada</button>
+        <button onclick="limparTela()">Limpar tabuada</button>
+        <div id="tabuada"></div>
+    </main>
+    
+    <footer>
+        <p> Autor: Mateus Sousa Pimenta</p>
+        <p>Curso: Técnico em Informática para Web, IFSULDEMINAS</p>
+        <p>Atividade referente a semana 4 da matéria Linguagem de Programação I</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
