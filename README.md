@@ -1,2 +1,2 @@
 # multiplicationtablewithbowfor
-simple challenge multiplication table with bow for
+simple challenge multiplication tables with bow for
